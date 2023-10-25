@@ -28,7 +28,7 @@ This project is an admin dashboard design created using HTML and CSS. The purpos
 
 ## Contributing
 
-This project is licensed under the MIT License. You are free to use and modify it for your needs.
+This project is licensed under the [MIT License](LICENSE). You are free to use and modify it for your needs.
 
 ## Acknowledgments
 
