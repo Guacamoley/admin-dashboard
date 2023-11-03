@@ -70,26 +70,19 @@ body {
     color: white;
 }
 
-.main-buttons {
-    display: grid;
-    grid-auto-rows: minmax(50px, auto); /* Define a dynamic row size for the main buttons */
-    grid-gap: 10px; /* Add spacing between main buttons */
-    padding: 1em;
-}
-
-.secondary-buttons {
-    display: grid;
-    grid-auto-rows: minmax(50px, auto); /* Define a dynamic row size for the secondary buttons */
-    grid-gap: 10px; /* Add spacing between secondary buttons */
-    padding: 1em;
-  }
-
 .buttons {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: #fff;
+    height: 50px;
+    transition: background-color 0.3s;
+    padding-left: 1em;
 }
+
+.buttons:hover {
+    background-color: #21ade4; /* Change the background color on hover */
+  }
 
 .buttons a {
     text-decoration: none;
