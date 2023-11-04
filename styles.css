@@ -14,6 +14,11 @@ body {
     border-radius: 50%;
     height: 3rem;
     width: 3rem;
+    cursor: pointer;
+}
+
+.profile-image--small:active {
+    transform: scale(0.97);
 }
 
 .project__function-buttons {
@@ -23,6 +28,11 @@ body {
 
 .notification-image {
     height: 1.7rem;
+    cursor: pointer;
+}
+
+.notification-image:active {
+    transform: scale(0.97);
 }
 
 .sidebar__logo {
@@ -121,6 +131,7 @@ body {
     display: grid;
     grid-template: auto 1fr / 2fr 1fr;
     padding: 0.5rem 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .header__search-container {
@@ -202,4 +213,21 @@ body {
     font-weight: bold;
     border-radius: 20px;
     font-size: 1rem;
+    cursor: pointer;
+}
+
+.header__buttons:hover {
+    background-color: #21ade4; /* Change the background color on hover */
+}
+
+.header__buttons:active {
+    transform: scale(0.97);
+}
+
+.username--small {
+    cursor: pointer;
+}
+
+.username--small:active {
+    transform: scale(0.97);
 }
